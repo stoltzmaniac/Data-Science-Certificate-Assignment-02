@@ -1,0 +1,68 @@
+---
+title: "In-Class Work"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library('tidyverse')
+
+dat = ggplot2::diamonds
+```
+
+
+Display first 10 rows of `dat` dataset
+```{r}
+
+```
+
+
+Create a chart to look at the distribution of `price`
+```{r}
+
+```
+
+Create a chart to look at the distribution of `price` broken down by `clarity`
+```{r}
+
+```
+
+Create a different chart to illustrate the same thing as above
+```{r}
+
+```
+
+Examine variables: `x`, `y`, and `z` -- what do you notice?
+```{r}
+
+```
+
+
+Show the relationship between `carat` and `price`  --  fit a curve to it
+```{r}
+
+```
+
+How does your curve look? Could you change the function it uses to use a linear model?
+```{r}
+
+```
+
+
+
+Create 3 more plots that you think are interesting.
+Add a title, subtitle, labels, and a caption where they make sense
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+  
+```
+
+
